@@ -3,7 +3,7 @@ const axios = require('axios');
 
 const app = express();
 
-app.get('/', async (req, res) => {
+app.get('*', async (req, res) => {
   const poem = await axios.get('http://c.ganjoor.net/beyt-json.php?p=7');
 
   const full =
