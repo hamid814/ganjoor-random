@@ -1,0 +1,18 @@
+{
+  "name": "ganjoor-random",
+  "version": "1.0.0",
+  "description": "saadi reandom beyt getter",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "poem"
+  ],
+  "author": "hamid814",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1"
+  }
+}
