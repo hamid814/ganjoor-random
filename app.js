@@ -20,4 +20,6 @@ app.get('*', async (req, res) => {
   res.send(full);
 });
 
+console.log('app is running');
+
 app.listen(5000, () => console.log('server running on port 5000'));
